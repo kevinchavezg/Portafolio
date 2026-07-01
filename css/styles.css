@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-header {
-    display: flex;
+h1 {
     font-family: 'Passions Conflict';
     font-size: 70px;
     color: whitesmoke;
     padding: 50px;
-    
 }
 
 body {
