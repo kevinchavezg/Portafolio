@@ -5,12 +5,19 @@
 }
 
 h1 {
-    font-family: 'Passions Conflict';
-    font-size: 70px;
+    font-family: Italiana, 'Bodoni Moda', 'Passions Conflict';
+    font-size: 100px;
     color: whitesmoke;
     padding: 50px;
 }
 
 body {
     background-color: rgba(0, 0, 0, 0.884);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
 }
