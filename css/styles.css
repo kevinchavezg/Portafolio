@@ -109,3 +109,41 @@ nav{
     gap: 10px;
     background-color: var(--colorPrimary);
 }
+
+.proyecto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;    
+}
+
+.proyecto div{
+    background-color: var(--colorTertiary);
+    color: var(--textColorPrimary);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    padding: 20px;
+}
+
+.proyecto img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.proyecto p {
+    margin-bottom: 20px;
+}
+
+.proyecto a {
+    color: var(--textColorPrimary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    color: var(--colorSecondary);
+    font-size: 19px;
+}
