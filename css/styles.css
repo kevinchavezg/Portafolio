@@ -68,13 +68,14 @@ nav{
     align-items: center;
 }
 
-.presentacion-text{
+.textoPresentacion {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 
-.presentacion-image img {
+.imagenPresentacion img {
     border-radius: 15px;
+    max-width: 30vw;
 }
