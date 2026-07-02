@@ -32,6 +32,7 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
     font-family: Italiana;
+    font-size: 40px;
 }
 
 section {
@@ -72,6 +73,12 @@ nav{
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
+}
+
+.presentacion div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .textoPresentacion {
