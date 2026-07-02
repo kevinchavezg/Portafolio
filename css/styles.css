@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --textColorPrimary: whitesmoke;
+    --textColorSecondary: #f5f5f5;
+    --textColorTertiary: #e0e0e0;
+    --colorPrimary: #1a1a1a;
+    --colorSecondary: #333333;
+    --colorTertiary: #404040;
+}
+
 h1 {
-    font-family: Italiana, 'Bodoni Moda', 'Passions Conflict';
+    font-family: Italiana;
     font-size: 100px;
-    color: whitesmoke;
+    color: var(--textColorPrimary);
     padding: 50px;
 }
 
