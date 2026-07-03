@@ -194,6 +194,38 @@ nav{
     background-color: var(--colorSecondary);
 }
 
+.contacto h3{
+    font-family: Italiana;
+    padding-bottom: 20px;
+}
+
+.contacto ul {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    list-style-type: none;
+    color: var(--colorPrimary);
+}
+
+.contacto li {
+    padding: 10px;
+}
+
+.contacto a {
+    color: var(--textColorSecondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover{
+    color: var(--textColorPrimary);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.contacto p {
+    padding-bottom: 20px;
+}
+
 .contacto fieldset {
     background-color: var(--colorTertiary);
     padding: 20px;
