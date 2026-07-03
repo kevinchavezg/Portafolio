@@ -100,6 +100,8 @@ nav{
 }
 
 .imagenPresentacion img:hover {
+    transition-property: width;
+    transition-duration: 2s;
     max-width: 32vw;
 }
 
@@ -212,3 +214,4 @@ nav{
     width: 50vw;
     padding-left: 40px;
 }
+
