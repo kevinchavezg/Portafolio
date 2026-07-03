@@ -197,6 +197,7 @@ nav{
 .contacto fieldset {
     background-color: var(--colorTertiary);
     padding: 20px;
+    border-radius: 15px;
 }
 
 .contacto legend{
@@ -215,3 +216,39 @@ nav{
     padding-left: 40px;
 }
 
+.contacto button {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--colorSecondary);
+    border: none;
+    font-size: 19px;
+    border-radius: 10px;
+    color: var(--textColorPrimary)
+}
+
+.contacto button:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary)
+}
+
+@media screen and (max-width: 760px){
+    .presentacion{
+        grid-template-columns: 1fr;
+    }
+
+    .sobreMi{
+        grid-template-columns: 1fr;
+    }
+
+    .habilidades{
+        grid-template-columns: 1fr;
+    }
+
+    .proyecto {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto{
+        grid-template-columns: 1fr;
+    }
+}
