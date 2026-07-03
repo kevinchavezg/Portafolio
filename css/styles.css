@@ -187,3 +187,28 @@ nav{
     color: var(--colorSecondary);
     font-size: 19px;
 }
+
+.contacto {
+    background-color: var(--colorSecondary);
+}
+
+.contacto fieldset {
+    background-color: var(--colorTertiary);
+    padding: 20px;
+}
+
+.contacto legend{
+    color: var(--colorPrimary);
+    padding-bottom: 20px;
+}
+
+.contacto label {
+    padding-left: 40px;
+    color: var(--colorSecondary);
+    width: 50vw;
+}
+
+.contacto input {
+    width: 50vw;
+    padding-left: 40px;
+}
