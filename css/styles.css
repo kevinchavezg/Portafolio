@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --textColorPrimary: #E2E8F0;
+    --textColorSecondary: #1A2421;
+    --textColorTertiary: #e0e0e0;
+    --colorPrimary: #1A2421;
+    --colorSecondary: #84A98C;
+    --colorTertiary: #404040;
+}
+
+body {
+    background-color: var(--colorPrimary);
+    font-family: sans-serif;
+    color: var(--textColorPrimary);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 14vw;
+    color: var(--textColorPrimary);
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Italiana;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px;
+}
+
+nav{
+    background: var(--colorSecondary);
+    color: var(--textColorSecondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: var(--textColorSecondary);
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: var(--textColorPrimary);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.presentacion div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textoPresentacion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leyenda {
+    font-style: italic;
+    text-align: center;
+}
+
+
+.imagenPresentacion img {
+    border-radius: 15px;
+    max-width: 30vw;
+    align-self: center;
+}
+
+.imagenPresentacion img:hover {
+    transition-property: width;
+    transition-duration: 2s;
+    max-width: 32vw;
+}
+
+.sobreMi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.descripcion {
+    background-color: var(--colorSecondary);
+    padding: 20px;
+    border-radius: 15px;
+    border-bottom: 10px solid var(--colorTertiary);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.descripcion :hover {
+    font-size: 19px;
+    padding: 10px;
+    gap: 10px;
+    background-color: var(--colorPrimary);
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--colorSecondary);
+    gap: 20px;
+}
+
+.habilidades div {
+    background-color: var(--colorPrimary);
+    padding: 10px;
+}
+
+.habilidades div:hover {
+    background: linear-gradient(var(--colorPrimary), var(--colorSecondary));
+}
+
+.habilidades h3 {
+    padding: 20px;
+}
+
+.habilidades ul{
+    padding-left: 20px;
+}
+
+.proyecto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;    
+}
+
+.proyecto div{
+    background-color: var(--colorTertiary);
+    color: var(--textColorPrimary);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.proyecto h3 {
+    padding: 20px;
+}
+
+.proyecto img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.proyecto p {
+    margin-bottom: 20px;
+}
+
+.proyecto a {
+    color: var(--textColorPrimary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    color: var(--colorSecondary);
+    font-size: 19px;
+}
+
+.contacto {
+    background-color: var(--colorSecondary);
+}
+
+.contacto h3{
+    font-family: Italiana;
+    padding-bottom: 20px;
+}
+
+.contacto ul {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    list-style-type: none;
+    color: var(--colorPrimary);
+}
+
+.contacto li {
+    padding: 10px;
+}
+
+.contacto a {
+    color: var(--textColorSecondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover{
+    color: var(--textColorPrimary);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.contacto p {
+    padding-bottom: 20px;
+}
+
+.contacto fieldset {
+    background-color: var(--colorTertiary);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contacto legend{
+    color: var(--colorPrimary);
+    padding-bottom: 20px;
+}
+
+.contacto label {
+    padding-left: 40px;
+    color: var(--colorSecondary);
+    width: 50vw;
+}
+
+.contacto input {
+    width: 50vw;
+    padding-left: 40px;
+}
+
+.contacto button {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--colorSecondary);
+    border: none;
+    font-size: 19px;
+    border-radius: 10px;
+    color: var(--textColorPrimary)
+}
+
+.contacto button:hover {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary)
+}
+
+@media screen and (max-width: 760px){
+    .presentacion{
+        grid-template-columns: 1fr;
+    }
+
+    .sobreMi{
+        grid-template-columns: 1fr;
+    }
+
+    .habilidades{
+        grid-template-columns: 1fr;
+    }
+
+    .proyecto {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto{
+        grid-template-columns: 1fr;
+    }
+}
