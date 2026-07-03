@@ -128,7 +128,26 @@ nav{
 
 .habilidades {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--colorSecondary);
+    gap: 20px;
+}
+
+.habilidades div {
+    background-color: var(--colorPrimary);
+    padding: 10px;
+}
+
+.habilidades div:hover {
+    background: linear-gradient(var(--colorPrimary), var(--colorSecondary));
+}
+
+.habilidades h3 {
+    padding: 20px;
+}
+
+.habilidades ul{
+    padding-left: 20px;
 }
 
 .proyecto {
