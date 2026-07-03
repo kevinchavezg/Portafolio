@@ -87,11 +87,20 @@ nav{
     gap: 20px;
 }
 
+.leyenda {
+    font-style: italic;
+    text-align: center;
+}
+
 
 .imagenPresentacion img {
     border-radius: 15px;
     max-width: 30vw;
     align-self: center;
+}
+
+.imagenPresentacion img:hover {
+    max-width: 32vw;
 }
 
 .sobreMi {
